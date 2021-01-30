@@ -173,15 +173,14 @@ export default function Project() {
                 />
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Heading
+                    Object-Detection Website
                   </Typography>
                   <Typography>
-                    This is a media card. You can use this section to describe
-                    the content.
+                   Detect the input image.
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button
+                  {/* <Button
                     variant="outlined"
                     color="secondary"
                     onClick={() =>
@@ -193,7 +192,7 @@ export default function Project() {
                     }
                   >
                     Visit
-                  </Button>
+                  </Button> */}
                 </CardActions>
               </Card>
             </Grid>
@@ -202,20 +201,20 @@ export default function Project() {
               <Card className={classes.card}>
                 <CardMedia
                   className={classes.cardMedia}
-                  image="https://source.unsplash.com/random"
+                  image="https://www.xda-developers.com/files/2021/01/Android-Logo.jpg"
                   title="Image title"
                 />
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Heading
+                     Play by Face App
                   </Typography>
                   <Typography>
-                    This is a media card. You can use this section to describe
-                    the content.
+                   This App plays song according to our Face Reaction.
+                   Just open the App.Listen your Song 
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button
+                  {/* <Button
                     variant="outlined"
                     color="secondary"
                     onClick={() =>
@@ -227,7 +226,7 @@ export default function Project() {
                     }
                   >
                     Visit
-                  </Button>
+                  </Button> */}
                 </CardActions>
               </Card>
             </Grid>
